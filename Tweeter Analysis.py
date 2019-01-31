@@ -4,10 +4,10 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import matplotlib.pyplot as plt
 
 
-consumerKey = 'xeKYme7fBVQwagoU0OEI4yonI'
-consumerSecret = 'caq7LfbYewR3UokDLwqhDM3NWw1gaqUsk40vaaDf2ypGnxQYyn'
-accessToken = '1874616464-wGJuRGp6eEne71zSGNP49xyMgqh3Dfkb0CH6HQ7'
-accessTokenSecret = '3JaGJD0mcLJLTRZgpdAScFikgyDwT0g7rRVgORM4bUGxi'
+consumerKey = ''
+consumerSecret = ''
+accessToken = ''
+accessTokenSecret = ''
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
